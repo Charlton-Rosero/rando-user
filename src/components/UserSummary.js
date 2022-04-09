@@ -1,7 +1,11 @@
-
+import { useState } from "react";
 
 function UserSummary(props){
     const data = props.currentUser;
+    const [moreInfo, setMoreInfo]= useState(false)
+
+    // EHH I'll DO THIS TOMORROW
+
 
     if(data){
         return(
